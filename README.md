@@ -1,46 +1,73 @@
-# Sentiment-Analysis-Internship-Feedback
-Machine Learning project for analyzing internship feedback using NLP and Logistic Regression.
-Internship Feedback Sentiment Analysis
+# Internship Feedback Sentiment Analysis
 
-**Project Overview**
-This project uses Natural Language Processing (NLP) and Machine Learning to analyze internship feedback and classify sentiments as:
-Positive
-Negative
-Neutral
-The goal is to identify areas where intern satisfaction can be improved and provide insights from textual feedback.
+## Overview
 
-**Dataset**
-The dataset contains 500 internship feedback records labeled with sentiment categories.
-Features
-Column	Description
-feedback	Internship review text
-sentiment	Positive, Negative, or Neutral
+This project uses Machine Learning and Natural Language Processing (NLP) to classify internship feedback as:
 
-**Technologies Used**
-Python
-Pandas
-NumPy
-Scikit-Learn
-TF-IDF Vectorization
-Logistic Regression
-Matplotlib
-Seaborn
+- Positive
+- Neutral
+- Negative
 
-**Machine Learning Pipeline**
-Data Collection
-Text Preprocessing
-TF-IDF Feature Extraction
-Train/Test Split
-Logistic Regression Model
-Performance Evaluation
+The model analyses text feedback and predicts the overall sentiment.
 
-**Results**
-The model successfully classifies internship feedback into sentiment categories.
-Evaluation metrics:
-Accuracy
-Precision
-Recall
-F1 Score
+---
 
-**Author**
-Aureen Afzal
+## Tools Used
+
+- Python
+- Pandas
+- Scikit-Learn
+- TF-IDF Vectorization
+- Logistic Regression
+- Matplotlib
+- Seaborn
+
+---
+
+## Dataset
+
+The dataset contains 500 internship feedback samples labeled as Positive, Neutral or Negative.
+
+Example:
+
+| Feedback | Sentiment |
+|-----------|-----------|
+| The mentors were very supportive. | Positive |
+| The internship was average overall. | Neutral |
+| Communication within the team was poor. | Negative |
+
+---
+
+## Model Workflow
+
+1. Load Dataset
+2. Convert Text using TF-IDF
+3. Split Data into Training and Testing Sets
+4. Train Logistic Regression Model
+5. Evaluate Model Performance
+
+---
+
+## Results
+
+- Accuracy: 100.0%
+- Successfully classifies internship feedback sentiments
+
+---
+
+
+## Project Files
+
+```text
+intern_feedback_500.csv
+sentiment_analysis.ipynb
+README.md
+```
+
+---
+
+## Author
+
+**Aureen Afzal**
+
+Final Year Aerospace Engineering Student
