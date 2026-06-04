@@ -2,21 +2,21 @@
 Machine Learning project for analyzing internship feedback using NLP and Logistic Regression.
 Internship Feedback Sentiment Analysis
 
-Project Overview
+**Project Overview**
 This project uses Natural Language Processing (NLP) and Machine Learning to analyze internship feedback and classify sentiments as:
 Positive
 Negative
 Neutral
 The goal is to identify areas where intern satisfaction can be improved and provide insights from textual feedback.
 
-Dataset
+**Dataset**
 The dataset contains 500 internship feedback records labeled with sentiment categories.
 Features
 Column	Description
 feedback	Internship review text
 sentiment	Positive, Negative, or Neutral
 
-Technologies Used
+**Technologies Used**
 Python
 Pandas
 NumPy
@@ -26,7 +26,7 @@ Logistic Regression
 Matplotlib
 Seaborn
 
-Machine Learning Pipeline
+**Machine Learning Pipeline**
 Data Collection
 Text Preprocessing
 TF-IDF Feature Extraction
@@ -34,7 +34,7 @@ Train/Test Split
 Logistic Regression Model
 Performance Evaluation
 
-Results
+**Results**
 The model successfully classifies internship feedback into sentiment categories.
 Evaluation metrics:
 Accuracy
@@ -42,5 +42,5 @@ Precision
 Recall
 F1 Score
 
-Author
+**Author**
 Aureen Afzal
